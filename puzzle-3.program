@@ -1,1 +1,18 @@
+down();
+down();
+var color = getColor();
+var steps = 0
+while (steps < 3) {
+  down();
+  steps = steps + 1
+}
 
+var steps = 0
+while (steps < 2) {
+  right();
+  steps = steps + 1
+}
+setColor(color); 
+right();
+right();
+up();
