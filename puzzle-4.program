@@ -16,3 +16,10 @@ down();
 setColor(color); 
 right();
 right();
+
+
+// I wanna make a function of 
+//var color = getColor();
+//down();
+//setColor(color); 
+//but it won't let me
