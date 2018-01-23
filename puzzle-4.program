@@ -1,25 +1,22 @@
+
+  var color;
+function loopcolor() {
+  color = getColor();
+down();
+setColor(color); 
+}
+
 right();
 var steps = 0
 while (steps < 4) {
   down();
   steps = steps + 1
 }
-var color = getColor();
-down();
-setColor(color); 
+loopcolor(); 
 right();
 right();
 up();
 right();
-var color = getColor();
-down();
-setColor(color); 
+loopcolor(); 
 right();
 right();
-
-
-// I wanna make a function of 
-//var color = getColor();
-//down();
-//setColor(color); 
-//but it won't let me
