@@ -1,1 +1,25 @@
+ var i = 0;
+while (i < 10) { 
+setColor("red"); 
+  down();
+  i++;
+}
 
+ i = 0;
+while (i < 9) { 
+setColor("red"); 
+  right();
+  i++;
+}
+i = 0;
+while (i < 10) { 
+setColor("red"); 
+  up();
+  i++;
+}
+i = 0;
+while (i < 9) { 
+setColor("red"); 
+  left();
+  i++;
+}
