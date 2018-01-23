@@ -17,7 +17,6 @@ function checkWhenDown(){
 }
 
 right();
-getColor();
 if (getColor() == "blue") {
   down();
 while (getColor() !="red" && getColor() != "blue") {
@@ -32,5 +31,6 @@ else {
          }
   checkWhenUp();
 }
+
 
 
