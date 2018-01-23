@@ -1,1 +1,28 @@
+function Upp(){
+if (getColor() != "blue") {
+  up();
+while (getColor() !="red" && getColor() != "blue") {
+  up();
+}
+}
+right();
+right();
+}
 
+function Downn(){
+if (getColor() != "blue") {
+  down();
+while (getColor() !="red" && getColor() != "blue") {
+  down();
+}
+}
+right();
+right();
+}
+
+Downn();
+Upp();
+Downn();
+Upp();
+Downn();
+right();
