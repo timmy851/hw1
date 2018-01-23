@@ -1,4 +1,4 @@
-
+function loopcolor() {
 right();
 right();
 getColor();
@@ -8,24 +8,10 @@ while (getColor() == "blue") {
 while (getColor() == "red") {
 	up();
 }
-right();
-right();
-getColor();
-while (getColor() == "blue") {
-	down();
 }
-while (getColor() == "red") {
-	up();
-}
-right();
-right();
-getColor();
-while (getColor() == "blue") {
-	down();
-}
-while (getColor() == "red") {
-	up();
-}
+loopcolor();
+loopcolor();
+loopcolor();
 right();
 right();
 right();
