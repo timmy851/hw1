@@ -1,1 +1,36 @@
+function checkWhenUp(){
+  right();
+  up();
+  down();
+  left();
+  left();
+  up();
+}
+
+function checkWhenDown(){
+	right();
+	down();
+	up();
+	left();
+	left();
+	down(); 
+}
+
+right();
+getColor();
+if (getColor() == "blue") {
+  down();
+while (getColor() !="red" && getColor() != "blue") {
+  down();
+}
+checkWhenDown();
+} 
+else {
+	up();
+  while (getColor() !="red" && getColor() != "blue") {
+         up();
+         }
+  checkWhenUp();
+}
+
 
