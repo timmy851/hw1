@@ -1,0 +1,12 @@
+background(255);
+colorMode(HSB);
+noStroke();
+
+var saturation = 100;
+
+
+while(saturation > 0) {
+	fill(random(360), saturation, 600);
+  ellipse(random(width), random(height), random(20,40));
+  saturation = saturation - 1; 
+}
