@@ -1,0 +1,49 @@
+var steps = 0
+function right1(){
+  var steps = 0
+  while (steps < 25) {
+    right();
+    steps = steps + 1
+  }
+}
+
+
+
+
+function square(width,height){
+  var i = 0;
+  while (i < height) { 
+    setColor("red"); 
+    down();
+    i = i + 1;
+  }
+
+  i = 0;
+  while (i < width) { 
+    setColor("red"); 
+    right();
+    i = i + 1;
+  }
+  i = 0;
+  while (i < height) { 
+    setColor("red"); 
+    up();
+    i = i + 1;
+  }
+  i = 0;
+  while (i < width) { 
+    setColor("red"); 
+    left();
+    i = i + 1;
+  }
+}
+
+square(11,12);
+right1();
+square(5,8);
+right1();
+square(5,8);
+right1();
+square(5,8);
+right1();
+
